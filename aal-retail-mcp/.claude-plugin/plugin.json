@@ -1,0 +1,10 @@
+{
+  "name": "aal-retail-mcp",
+  "version": "0.1.0",
+  "description": "Alternative Asset Literacy for retail investors: 9 deep-dive tracks (DeFi, ESG, Art, Behavioral Economics, Gender Lens, VC/PE, Tokenized RWAs, PE Secondaries & Continuation Funds, Gross Domestic Regeneration), a regime-switching retirement Monte Carlo estimator, an illiquidity commitment-pacing calculator, a free SEC IAPD/FINRA BrokerCheck lookup, a directory of verified women-focused fee-only advisors, and the 351-term glossary — mirrors the free/paid boundary of the Alternative Asset Literacy iOS app. Not investment advice.",
+  "author": {
+    "name": "Untitled_ LuxPerpetua Technologies, Inc."
+  },
+  "homepage": "https://alternativeassetliteracy.com",
+  "keywords": ["investing", "alternative-assets", "personal-finance", "financial-literacy", "retail-investor"]
+}

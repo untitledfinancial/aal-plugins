@@ -1,0 +1,10 @@
+{
+  "name": "aal-advisor-mcp",
+  "version": "0.1.0",
+  "description": "Per-seat-billed advisor toolkit from Alternative Asset Literacy: 9 deep-dive tracks (DeFi, ESG, Art, Behavioral Economics, Gender Lens, VC/PE, Tokenized RWAs, PE Secondaries & Continuation Funds, Gross Domestic Regeneration), a regime-switching retirement Monte Carlo estimator, an illiquidity commitment-pacing calculator, a free SEC IAPD/FINRA BrokerCheck lookup, client-education content generation with an automatic compliance self-check, and the 351-term glossary. tools/list is open for discovery; every tools/call requires an active paid seat.",
+  "author": {
+    "name": "Untitled_ LuxPerpetua Technologies, Inc."
+  },
+  "homepage": "https://alternativeassetliteracy.com",
+  "keywords": ["financial-advisor", "wealth-management", "alternative-assets", "client-education", "fintech"]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "aal-plugins",
+  "owner": {
+    "name": "Untitled_ LuxPerpetua Technologies, Inc.",
+    "email": "hello@alternativeassetliteracy.com",
+    "url": "https://alternativeassetliteracy.com"
+  },
+  "description": "Alternative Asset Literacy — MCP plugins for retail investors and financial advisors covering DeFi, ESG, art, behavioral economics, gender-lens investing, VC/PE, tokenized real-world assets, and PE secondaries, plus live calculators (Monte Carlo retirement estimator, illiquidity commitment-pacing model) and a free SEC IAPD/FINRA BrokerCheck lookup.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "aal-retail-mcp",
+      "displayName": "Alternative Asset Literacy — Retail",
+      "source": "./aal-retail-mcp",
+      "description": "Alternative asset education for retail investors: 9 deep-dive tracks, a regime-switching retirement Monte Carlo estimator, an illiquidity commitment-pacing calculator, a free advisor registration lookup, and a directory of verified women-focused fee-only advisors. Free previews on every tool; full content with a subscription.",
+      "category": "finance",
+      "tags": ["investing", "alternative-assets", "personal-finance", "financial-literacy", "retail-investor"],
+      "author": {
+        "name": "Untitled_ LuxPerpetua Technologies, Inc."
+      },
+      "homepage": "https://alternativeassetliteracy.com",
+      "license": "See repository LICENSE"
+    },
+    {
+      "name": "aal-advisor-mcp",
+      "displayName": "Alternative Asset Literacy — Advisor",
+      "source": "./aal-advisor-mcp",
+      "description": "Per-seat-billed client-education toolkit for financial advisors: 9 deep-dive tracks, an automatic compliance self-check on generated client communications, a regime-switching retirement Monte Carlo estimator, an illiquidity commitment-pacing calculator, and a free SEC IAPD/FINRA BrokerCheck registration lookup for due diligence.",
+      "category": "finance",
+      "tags": ["financial-advisor", "wealth-management", "alternative-assets", "client-education", "fintech", "compliance"],
+      "author": {
+        "name": "Untitled_ LuxPerpetua Technologies, Inc."
+      },
+      "homepage": "https://alternativeassetliteracy.com",
+      "license": "See repository LICENSE"
+    }
+  ]
+}

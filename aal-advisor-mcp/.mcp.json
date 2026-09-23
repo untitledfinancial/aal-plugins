@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "aal-advisor": {
+      "url": "https://alternativeassetliteracy.com/mcp",
+      "headers": {
+        "Authorization": "Bearer <your advisor seat key — register at /mcp/admin/signup, issue a seat at /mcp/admin>"
+      }
+    }
+  }
+}
