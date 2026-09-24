@@ -11,7 +11,15 @@ A marketplace listing for two MCP (Model Context Protocol) plugins from [Alterna
 
 ## Install
 
-Add this repository as a marketplace source, then install either plugin by name — see each plugin's own README for manual `.mcp.json` setup if you'd rather not use the marketplace flow.
+```shell
+claude plugin marketplace add untitledfinancial/aal-plugins
+claude plugin install aal-retail-mcp@aal-plugins
+claude plugin install aal-advisor-mcp@aal-plugins
+```
+
+Use the `owner/repo` shorthand shown above, not a direct URL to `marketplace.json` — this marketplace's plugin sources are relative paths within the repo, which only resolve when the whole repository is cloned, not when just the manifest file is fetched.
+
+See each plugin's own README for manual `.mcp.json` setup if you'd rather not use the marketplace flow.
 
 ## What this repository is (and isn't)
 

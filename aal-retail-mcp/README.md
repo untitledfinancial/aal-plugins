@@ -6,7 +6,11 @@ This repository contains only the connector definition (`.mcp.json`), plugin man
 
 ## Install
 
-**Via the marketplace:** install `aal-retail-mcp` from this repo's marketplace listing.
+**Via the marketplace:**
+```shell
+claude plugin marketplace add untitledfinancial/aal-plugins
+claude plugin install aal-retail-mcp@aal-plugins
+```
 
 **Manually**, add to your MCP configuration:
 ```json
