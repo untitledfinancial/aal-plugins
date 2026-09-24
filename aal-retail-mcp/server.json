@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.alternativeassetliteracy/aal-retail-mcp",
+  "title": "Alternative Asset Literacy — Retail",
+  "description": "Alternative-asset education for retail investors: deep-dive tracks, calculators, advisor lookup.",
+  "repository": {
+    "url": "https://github.com/untitledfinancial/aal-plugins",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alternativeassetliteracy.com/mcp/retail"
+    }
+  ]
+}
