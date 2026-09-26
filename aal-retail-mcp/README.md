@@ -17,6 +17,7 @@ claude plugin install aal-retail-mcp@aal-plugins
 {
   "mcpServers": {
     "aal-retail": {
+      "type": "http",
       "url": "https://alternativeassetliteracy.com/mcp/retail"
     }
   }

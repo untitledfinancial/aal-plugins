@@ -17,6 +17,7 @@ claude plugin install aal-advisor-mcp@aal-plugins
 {
   "mcpServers": {
     "aal-advisor": {
+      "type": "http",
       "url": "https://alternativeassetliteracy.com/mcp",
       "headers": {
         "Authorization": "Bearer <your seat key>"
