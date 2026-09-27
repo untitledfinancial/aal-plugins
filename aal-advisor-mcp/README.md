@@ -32,16 +32,25 @@ claude plugin install aal-advisor-mcp@aal-plugins
 1. Register your firm — `POST https://alternativeassetliteracy.com/mcp/admin/signup` (free, no payment for this step).
 2. Start billing from the returned admin dashboard link — opens a Stripe Checkout with a 14-day trial.
 3. Issue yourself a seat from the same dashboard — this returns your seat key.
-4. `tools/list` works without a key so you can see the full catalog before signing up; every `tools/call` requires the `Authorization` header above.
+4. `tools/list` works without a key so you can see the full catalog before signing up. Most `tools/call` requires the `Authorization` header above — a small set of onboarding tools work without it (see below).
 
 ## What's included — 32 tools
 
-- **9 deep-dive tracks**, each grounded in cited primary/institutional research: DeFi, ESG & Climate, Art, Behavioral Economics, Gender Lens Investing (advisor-practice angle), Gross Domestic Regeneration (an emerging, explicitly-caveated "beyond GDP" model), Venture Capital & Private Equity, Tokenized Real-World Assets, and PE/VC Secondaries & Continuation Funds.
-- **Calculators, not templated text**: a regime-switching retirement Monte Carlo estimator (deliberately not built around the "4% rule" — runs multiple forward-looking market scenarios by default) and an illiquidity stress-test / commitment-pacing model (Takahashi-Alexander framework).
-- **A free, live SEC IAPD / FINRA BrokerCheck registration lookup** — useful for due diligence on a referral partner, not just a client.
-- **Client-education generation with a built-in compliance self-check**: `advisor.post_meeting_followup` runs the same pattern-scan `advisor.compliance_scan` exposes manually, automatically, on every generated message.
-- The 351-term glossary, institutional research papers, a 53-question competency check, the investing brain map, and the app's art learning track and library — also available as MCP Resources (`aal://glossary`, `aal://disclosures`, `aal://toolkit-frameworks`) for clients that prefer reading over a tool call.
-- Two guided Prompts (`build_client_deep_dive`, `pre_meeting_prep`) that chain several tools into one call.
+- **9 deep-dive tracks**, each grounded in cited primary/institutional research: DeFi, ESG & Climate, Art, Behavioral Economics, Gender Lens Investing (advisor-practice angle), Gross Domestic Regeneration (an emerging, explicitly-caveated "beyond GDP" model), Venture Capital & Private Equity, Tokenized Real-World Assets, and PE/VC Secondaries & Continuation Funds. Requires an active seat.
+- **Calculators, not templated text**: a regime-switching retirement Monte Carlo estimator (deliberately not built around the "4% rule" — runs multiple forward-looking market scenarios by default) and an illiquidity stress-test / commitment-pacing model (Takahashi-Alexander framework). Requires an active seat.
+- **Client-education generation with a built-in compliance self-check**: `advisor.post_meeting_followup` runs the same pattern-scan `advisor.compliance_scan` exposes manually, automatically, on every generated message. Requires an active seat.
+- Institutional research papers, a 53-question competency check, the investing brain map, and the app's art learning track and library. Requires an active seat.
+- Two guided Prompts (`build_client_deep_dive`, `pre_meeting_prep`) that chain several tools into one call. Requires an active seat.
+
+### No seat required
+
+A small set of onboarding tools work without a key, so a prospective firm can try the plugin before signing up:
+
+- The 351-term glossary and curated reading list (`glossary.lookup`/`search`/`browse`, `reading.list`) — also available as MCP Resources (`aal://glossary`, `aal://disclosures`) for clients that prefer reading over a tool call.
+- A live SEC IAPD / FINRA BrokerCheck registration lookup (`advisor.registration_check`) — useful for due diligence on a referral partner, not just a client.
+- The Investing Primer module in full, and a locked preview (first section, first quiz) of the other 8 (`modules.get_content`) — mirrors the app's own free-tier boundary.
+- A sourced statistic (`facts.random`), a ready-to-use meeting opener (`advisor.meeting_icebreaker`), and a client gift bundle (`advisor.gift_bundle`).
+- Legal disclosure text (`disclosures.get`).
 
 ## Compliance posture
 

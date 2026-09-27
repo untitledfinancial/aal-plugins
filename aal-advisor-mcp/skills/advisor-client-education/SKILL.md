@@ -8,6 +8,10 @@ version: 0.1.0
 
 This skill turns the `aal-advisor` MCP tools into an actual advisor workflow: which tool(s) to call for a given request, in what order, and how to format the result. The tools themselves are dumb data — this skill is what makes them useful in a real conversation.
 
+## Billing: which tools need a seat
+
+This plugin is per-seat billed — most tools require an active advisor seat (`Authorization: Bearer <seat key>`), and calling one without a seat returns a plain "this tool requires an active advisor seat" message rather than any content. A small set of onboarding tools work without a seat by design, so a prospective firm can try the plugin before signing up: `glossary.lookup`/`search`/`browse`, `reading.list`, `disclosures.get`, `advisor.registration_check`, `modules.get_content` (Investing Primer in full, every other module locked-preview), `facts.random`, `advisor.meeting_icebreaker`, and `advisor.gift_bundle`. `resources/read` on `aal://glossary` and `aal://disclosures` is also seat-free; `aal://toolkit-frameworks` is not. If an unauthenticated advisor asks for something outside this list, say plainly that it needs a seat and point to `/mcp/admin/signup` — don't imply the tool doesn't exist.
+
 ## The tools available (via the `aal-advisor` MCP connector) — 32 total, all purpose-built for advisor use
 
 - `modules.get_content` — full content for a module, respecting the app's free/paid boundary (one free module in full; every other module capped at its first section(s)/quiz, remainder listed by title only). Accepts a module id OR a title/topic string directly — there is no separate routing tool.
