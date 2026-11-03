@@ -1,6 +1,6 @@
-# Alternative Asset Literacy — Advisor MCP
+# Advisor Client Liaison and Literacy
 
-A per-seat-billed MCP (Model Context Protocol) connector for **financial advisors** — client-education content and practice tools for alternative assets, delivered directly in Claude.
+A per-seat-billed MCP (Model Context Protocol) connector from Alternative Asset Literacy for **financial advisors** — client-education content and practice tools for alternative assets, delivered directly in Claude.
 
 This repository contains only the connector definition (`.mcp.json`), plugin manifest, and workflow skill needed to install and use it. The actual server runs at `alternativeassetliteracy.com`; nothing here executes locally.
 
