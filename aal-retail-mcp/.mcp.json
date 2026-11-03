@@ -4,7 +4,7 @@
       "type": "http",
       "url": "https://alternativeassetliteracy.com/mcp/retail",
       "headers": {
-        "Authorization": "Bearer <your key, optional — sign up at /mcp/retail/signup for full content; tools work without a key, just with locked previews>"
+        "Authorization": "Bearer ${user_config.api_key}"
       }
     }
   }

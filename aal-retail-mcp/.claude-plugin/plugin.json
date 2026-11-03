@@ -1,10 +1,32 @@
 {
   "name": "aal-retail-mcp",
-  "version": "0.1.0",
-  "description": "Alternative Asset Literacy for retail investors: 9 deep-dive tracks (DeFi, ESG, Art, Behavioral Economics, Gender Lens, VC/PE, Tokenized RWAs, PE Secondaries & Continuation Funds, Gross Domestic Regeneration), a regime-switching retirement Monte Carlo estimator, an illiquidity commitment-pacing calculator, a free SEC IAPD/FINRA BrokerCheck lookup, a directory of verified women-focused fee-only advisors, and the 351-term glossary — mirrors the free/paid boundary of the Alternative Asset Literacy iOS app. Not investment advice.",
+  "displayName": "Alternative Asset Literacy: Investor Self-Education",
+  "version": "0.2.0",
+  "description": "Covers the alternative-asset categories most investing apps ignore — DeFi, art, tokenized real-world assets, VC/PE, and gender-lens investing as its own track — plus Gross Domestic Regeneration, cited research, a Monte Carlo retirement simulation, an illiquidity-pacing model, and a free SEC/FINRA advisor lookup. Free previews; full content with a subscription. Educational only, not investment advice.",
   "author": {
-    "name": "Untitled_ LuxPerpetua Technologies, Inc."
+    "name": "Untitled_ LuxPerpetua Technologies, Inc.",
+    "email": "hello@alternativeassetliteracy.com",
+    "url": "https://alternativeassetliteracy.com"
   },
-  "homepage": "https://alternativeassetliteracy.com",
-  "keywords": ["investing", "alternative-assets", "personal-finance", "financial-literacy", "retail-investor"]
+  "homepage": "https://alternativeassetliteracy.com/claude-plugins",
+  "repository": "https://github.com/untitledfinancial/aal-plugins",
+  "documentationUrl": "https://alternativeassetliteracy.com/claude-plugins",
+  "supportUrl": "https://alternativeassetliteracy.com/contact",
+  "privacyPolicyUrl": "https://alternativeassetliteracy.com/privacy",
+  "termsOfServiceUrl": "https://alternativeassetliteracy.com/terms",
+  "keywords": [
+    "investing",
+    "alternative-assets",
+    "personal-finance",
+    "financial-literacy",
+    "retail-investor"
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Subscription key (optional)",
+      "description": "Your Alternative Asset Literacy retail key, if you have one. Leave empty to use the free previews.",
+      "sensitive": true
+    }
+  }
 }

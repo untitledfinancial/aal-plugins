@@ -4,7 +4,7 @@
       "type": "http",
       "url": "https://alternativeassetliteracy.com/mcp",
       "headers": {
-        "Authorization": "Bearer <your advisor seat key — register at /mcp/admin/signup, issue a seat at /mcp/admin>"
+        "Authorization": "Bearer ${user_config.seat_key}"
       }
     }
   }
