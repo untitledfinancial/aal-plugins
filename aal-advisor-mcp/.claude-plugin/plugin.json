@@ -1,7 +1,7 @@
 {
-  "name": "aal-advisor-mcp",
+  "name": "alternative-asset-literacy-advisor",
   "displayName": "Alternative Asset Literacy: Advisor Client Education",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Per-seat client-education toolkit for advisors covering DeFi, tokenized real-world assets, PE/VC secondaries, gender-lens investing and Gross Domestic Regeneration, with cited research, a Monte Carlo simulation, an illiquidity-pacing model and a compliance self-check. Glossary, SEC/FINRA lookup and a few onboarding tools work without a seat; the rest needs a seat.",
   "author": {
     "name": "Untitled_ LuxPerpetua Technologies, Inc.",

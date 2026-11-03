@@ -9,7 +9,7 @@ This repository contains only the connector definition (`.mcp.json`), plugin man
 **Via the marketplace:**
 ```shell
 claude plugin marketplace add untitledfinancial/aal-plugins
-claude plugin install aal-advisor-mcp@aal-plugins
+claude plugin install alternative-asset-literacy-advisor@aal-plugins
 ```
 
 **Manually**, add to your MCP configuration:

@@ -14,7 +14,13 @@
       "source": "./aal-retail-mcp",
       "description": "Alternative asset education for retail investors: 9 deep-dive tracks, a regime-switching retirement Monte Carlo estimator, an illiquidity commitment-pacing calculator, a free advisor registration lookup, and a directory of verified women-focused fee-only advisors. Free previews on every tool; full content with a subscription.",
       "category": "finance",
-      "tags": ["investing", "alternative-assets", "personal-finance", "financial-literacy", "retail-investor"],
+      "tags": [
+        "investing",
+        "alternative-assets",
+        "personal-finance",
+        "financial-literacy",
+        "retail-investor"
+      ],
       "author": {
         "name": "Untitled_ LuxPerpetua Technologies, Inc."
       },
@@ -22,12 +28,19 @@
       "license": "See repository LICENSE"
     },
     {
-      "name": "aal-advisor-mcp",
+      "name": "alternative-asset-literacy-advisor",
       "displayName": "Alternative Asset Literacy — Advisor",
       "source": "./aal-advisor-mcp",
       "description": "Per-seat-billed client-education toolkit for financial advisors: 9 deep-dive tracks, an automatic compliance self-check on generated client communications, a regime-switching retirement Monte Carlo estimator, and an illiquidity commitment-pacing calculator. A handful of onboarding tools work before signing up: a SEC IAPD/FINRA BrokerCheck registration lookup, the glossary, a module preview, a meeting icebreaker, and a client gift bundle.",
       "category": "finance",
-      "tags": ["financial-advisor", "wealth-management", "alternative-assets", "client-education", "fintech", "compliance"],
+      "tags": [
+        "financial-advisor",
+        "wealth-management",
+        "alternative-assets",
+        "client-education",
+        "fintech",
+        "compliance"
+      ],
       "author": {
         "name": "Untitled_ LuxPerpetua Technologies, Inc."
       },

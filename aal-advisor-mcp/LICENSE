@@ -3,7 +3,7 @@ All rights reserved.
 
 This repository contains connector definitions, plugin manifests, and
 workflow documentation for the Alternative Asset Literacy MCP plugins
-("aal-retail-mcp" and "aal-advisor-mcp"). It does not contain the plugins'
+("aal-retail-mcp" and "alternative-asset-literacy-advisor"). It does not contain the plugins'
 implementation source, which remains proprietary and is not published here.
 
 No part of this repository's content — including plugin manifests, skill
