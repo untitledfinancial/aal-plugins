@@ -48,7 +48,7 @@ A small set of onboarding tools work without a key, so a prospective firm can tr
 
 - The 351-term glossary and curated reading list (`glossary.lookup`/`search`/`browse`, `reading.list`) — also available as MCP Resources (`aal://glossary`, `aal://disclosures`) for clients that prefer reading over a tool call.
 - A live SEC IAPD / FINRA BrokerCheck registration lookup (`advisor.registration_check`) — useful for due diligence on a referral partner, not just a client.
-- The Investing Primer module in full, and a locked preview (first section, first quiz) of the other 8 (`modules.get_content`) .
+- The Investing Primer module in full, and a locked preview (first section, first quiz) of the other 8 (`modules.get_content`).
 - A sourced statistic (`facts.random`), a ready-to-use meeting opener (`advisor.meeting_icebreaker`), and a client gift bundle (`advisor.gift_bundle`).
 - Legal disclosure text (`disclosures.get`).
 
