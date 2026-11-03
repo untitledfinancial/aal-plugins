@@ -28,5 +28,6 @@
       "description": "Your firm's advisor seat key. Leave empty to use the tools that work without a seat.",
       "sensitive": true
     }
-  }
+  },
+  "icon": "./logo.png"
 }

@@ -28,5 +28,6 @@
       "description": "Your Alternative Asset Literacy retail key, if you have one. Leave empty to use the free previews.",
       "sensitive": true
     }
-  }
+  },
+  "icon": "./logo.png"
 }
