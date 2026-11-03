@@ -29,7 +29,7 @@
     },
     {
       "name": "alternative-asset-literacy-advisor",
-      "displayName": "Alternative Asset Literacy — Advisor",
+      "displayName": "Advisor Client Liaison and Literacy",
       "source": "./aal-advisor-mcp",
       "description": "Per-seat-billed client-education toolkit for financial advisors: 9 deep-dive tracks, an automatic compliance self-check on generated client communications, a regime-switching retirement Monte Carlo estimator, and an illiquidity commitment-pacing calculator. A handful of onboarding tools work before signing up: a SEC IAPD/FINRA BrokerCheck registration lookup, the glossary, a module preview, a meeting icebreaker, and a client gift bundle.",
       "category": "finance",
