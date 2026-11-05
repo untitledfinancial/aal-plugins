@@ -1,8 +1,8 @@
 {
   "name": "aal-retail-mcp",
   "displayName": "Alternative Asset Literacy: Investor Self-Education",
-  "version": "0.2.0",
-  "description": "Covers the alternative-asset categories most investing apps ignore — DeFi, art, tokenized real-world assets, VC/PE, and gender-lens investing as its own track — plus Gross Domestic Regeneration, cited research, a Monte Carlo retirement simulation, an illiquidity-pacing model, and a free SEC/FINRA advisor lookup. Free previews; full content with a subscription. Educational only, not investment advice.",
+  "version": "0.2.1",
+  "description": "Plain-language education on alternative assets for individual investors: a 351-term glossary, nine learning modules, deep-dive tracks on venture capital and private equity, PE secondaries, tokenized real-world assets, gender-lens investing and Gross Domestic Regeneration, a retirement Monte Carlo estimator, an illiquidity-pacing model, and a lookup of advisors in public SEC and FINRA records. Free previews; full content with a subscription. Educational only, not investment advice.",
   "author": {
     "name": "Untitled_ LuxPerpetua Technologies, Inc.",
     "email": "hello@alternativeassetliteracy.com",
