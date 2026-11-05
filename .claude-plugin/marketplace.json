@@ -5,14 +5,14 @@
     "email": "hello@alternativeassetliteracy.com",
     "url": "https://alternativeassetliteracy.com"
   },
-  "description": "Alternative Asset Literacy — MCP plugins for retail investors and financial advisors covering DeFi, ESG, art, behavioral economics, gender-lens investing, VC/PE, tokenized real-world assets, and PE secondaries, plus live calculators (Monte Carlo retirement estimator, illiquidity commitment-pacing model) and a free SEC IAPD/FINRA BrokerCheck lookup.",
+  "description": "Alternative Asset Literacy: MCP plugins for individual investors and for financial advisors covering alternative-asset education, including private equity and venture capital, tokenized real-world assets, gender-lens investing, art, DeFi and climate investing, with retirement and illiquidity calculators and a lookup of public SEC and FINRA registration records.",
   "version": "1.0.0",
   "plugins": [
     {
       "name": "aal-retail-mcp",
-      "displayName": "Alternative Asset Literacy — Retail",
+      "displayName": "Alternative Asset Literacy: Investor Self-Education",
       "source": "./aal-retail-mcp",
-      "description": "Alternative asset education for retail investors: 9 deep-dive tracks, a regime-switching retirement Monte Carlo estimator, an illiquidity commitment-pacing calculator, a free advisor registration lookup, and a directory of verified women-focused fee-only advisors. Free previews on every tool; full content with a subscription.",
+      "description": "Alternative-asset education for individual investors: a 351-term glossary, learning modules, deep-dive tracks, a retirement Monte Carlo estimator, an illiquidity-pacing model, a directory of advisor-search networks and firms that state a focus on women clients, and a lookup of public SEC and FINRA records. Free previews; full content with a subscription.",
       "category": "finance",
       "tags": [
         "investing",
@@ -31,7 +31,7 @@
       "name": "alternative-asset-literacy-advisor",
       "displayName": "Advisor Client Liaison and Literacy",
       "source": "./aal-advisor-mcp",
-      "description": "Per-seat-billed client-education toolkit for financial advisors: 9 deep-dive tracks, an automatic compliance self-check on generated client communications, a regime-switching retirement Monte Carlo estimator, and an illiquidity commitment-pacing calculator. A handful of onboarding tools work before signing up: a SEC IAPD/FINRA BrokerCheck registration lookup, the glossary, a module preview, a meeting icebreaker, and a client gift bundle.",
+      "description": "Per-seat client-education toolkit for financial advisors: nine deep-dive tracks, a compliance check for draft client communications, a retirement Monte Carlo estimator, and an illiquidity commitment-pacing model. The glossary, a module preview, a meeting icebreaker, a client gift bundle and a SEC/FINRA registration lookup work without a seat.",
       "category": "finance",
       "tags": [
         "financial-advisor",
